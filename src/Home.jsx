@@ -50,7 +50,7 @@ const Home = () => {
           <span className="text-[#ccc]">SEMESTER.</span>
         </h1>
         <p className="text-xl text-text-muted max-w-2xl mx-auto mb-10 leading-relaxed">
-          Track attendance, calculate SGPA/CGPA,cgpa to Percentage and stay ahead of your academic goals with tools designed for modern students.
+          Track <span className="font-bold text-black">Attendance</span>, calculate <span className="font-bold text-black">SGPA/CGPA</span>, <span className="font-bold text-black">CGPA to Percentage</span> and stay ahead of your academic goals with tools designed for modern students.
         </p>
         <div className="flex gap-4 justify-center mb-16">
           <a href="/attendance" className="inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold transition-all duration-200 cursor-pointer bg-primary text-white border border-primary hover:bg-[#8a161d]">Check Attendance</a>
