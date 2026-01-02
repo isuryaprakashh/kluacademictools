@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="flex justify-between items-center h-16">
             {/* Logo / Brand */}
             <Link to='/' className="text-white font-bold text-xl tracking-tight" onClick={closeMenu}>
-              KLU Tools
+              Academic Tools
             </Link>
 
             {/* Desktop Menu */}

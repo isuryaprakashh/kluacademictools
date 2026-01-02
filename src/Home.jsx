@@ -37,13 +37,19 @@ const Home = () => {
     }
   };
   return (
-    <div className="font-sans text-text-main bg-white w-full">
+    <div className="font-sans text-text-main w-full min-h-screen" style={{
+      backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.60), rgba(255, 255, 255, 0.60)), url('/hero-bg.png')",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed',
+      backgroundRepeat: 'no-repeat'
+    }}>
       <SEO
         title="Home"
         description="Master your semester with KLU Academic Tools. Calculate attendance, SGPA, and CGPA securely on your device."
       />
       {/* Hero Section */}
-      <section className="text-center py-24 px-4 bg-white">
+      <section className="text-center py-24 px-4">
 
         <h1 className="text-6xl font-extrabold mb-6 max-w-4xl mx-auto tracking-tight leading-[1.1]">
           MASTER YOUR <br />
@@ -65,7 +71,7 @@ const Home = () => {
 
 
       {/* Install App Section */}
-      <section className="bg-secondary-bg text-center py-16">
+      <section className="text-center py-16">
         <div className="max-w-[1200px] mx-auto px-4">
           <div className="max-w-[700px] mx-auto mb-10 text-center">
             <h2 className="text-[2.5rem] font-bold mb-4 tracking-tight">Add to home screen</h2>
@@ -139,7 +145,7 @@ const Home = () => {
 
 
       {/* Help Us Improve Section */}
-      <section className="bg-white py-24 px-4">
+      <section className="py-24 px-4">
         <div className="max-w-[600px] mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-[2.5rem] font-bold mb-4 tracking-tight">Help Us Improve</h2>
@@ -163,7 +169,7 @@ const Home = () => {
             </div>
           </div>
 
-          <form className="bg-secondary-bg p-8 rounded-[2rem] border border-border-color shadow-sm" onSubmit={(e) => e.preventDefault()}>
+          <form className="bg-white/80 backdrop-blur-md p-8 rounded-[2rem] border border-border-color shadow-sm" onSubmit={(e) => e.preventDefault()}>
             <div className="flex flex-col sm:flex-row gap-6 mb-6">
               <div className="flex-1">
                 <label htmlFor="name" className="block font-semibold mb-2 text-text-main pl-2">Name</label>
