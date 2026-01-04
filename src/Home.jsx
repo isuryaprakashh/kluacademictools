@@ -110,9 +110,7 @@ const Home = () => {
                 className="group flex items-center justify-center gap-3 px-6 py-4 bg-white border-2 border-text-main rounded-full text-text-main font-semibold text-lg transition-all hover:bg-gray-50 hover:shadow-lg hover:scale-105 active:scale-95 min-w-[180px]"
                 onClick={() => setShowIOSInstructions(!showIOSInstructions)}
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="text-black">
-                  <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.63-2.2.53-3.04-.35C4.45 17.03 2 12.02 5.09 9.1c1.38-1.35 3.91-1.39 5.3-.29 1.5 1.17 2.14 1.17 3.33.29 1.39-1.07 3.92-1.1 5.3.32.74.77 1.34 2.12 1.51 2.37-3.96 1.16-3.32 6.63 1.52 7.15-.36 1.07-.94 2.65-2 3.34h-.01zM11.96 5.86c-.52-2.31 2.05-4.46 4.14-4.42.36 2.5-2.22 4.69-4.14 4.42z" />
-                </svg>
+                <img src="/apple-logo.png" alt="iOS" className="h-6 object-contain" />
                 iOS
               </button>
             </div>
@@ -232,7 +230,7 @@ const Home = () => {
           </div>
 
           <div className="mt-16 pt-8 border-t border-[#333] flex justify-between text-[#6b7280] text-sm">
-            <div>Designed & Developed by <span className="font-bold text-white">Surya</span> & <span className="font-bold text-white">Akhil</span> © 2025</div>
+            <div>Designed & Developed by <span className="font-bold text-white">Surya</span> & <span className="font-bold text-white">Akhil</span> © 2026</div>
             <div>
               <a href="/privacy" className="mr-4 hover:text-white transition-colors">Privacy</a>
               <a href="/terms" className="hover:text-white transition-colors">Terms</a>

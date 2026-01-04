@@ -38,7 +38,7 @@ const Privacy = () => {
             </section>
 
             <div className="mt-12 pt-8 border-t border-border-color text-center text-text-muted">
-                <p>Last updated: January 2025</p>
+                <p>Last updated: January 2026</p>
             </div>
         </div>
     );
