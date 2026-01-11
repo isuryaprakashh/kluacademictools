@@ -142,7 +142,7 @@ const Home = () => {
       </section>
 
 
-      {/* Help Us Improve Section */}
+      {/* Help Us Improve Section
       <section className="py-24 px-4">
         <div className="max-w-[600px] mx-auto">
           <div className="text-center mb-12">
@@ -205,7 +205,7 @@ const Home = () => {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer CTA */}
       <section className="bg-black text-white py-24 px-4 text-left">
