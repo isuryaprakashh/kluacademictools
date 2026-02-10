@@ -230,7 +230,7 @@ const Home = () => {
           </div>
 
           <div className="mt-16 pt-8 border-t border-[#333] flex justify-between text-[#6b7280] text-sm">
-            <div>Designed & Developed by <span className="font-bold text-white">Surya</span> & <span className="font-bold text-white">Akhil</span> © 2026</div>
+            {/* <div>Designed & Developed by <span className="font-bold text-white">Surya</span> & <span className="font-bold text-white">Akhil</span> © 2026</div> */}
             <div>
               <a href="/privacy" className="mr-4 hover:text-white transition-colors">Privacy</a>
               <a href="/terms" className="hover:text-white transition-colors">Terms</a>
